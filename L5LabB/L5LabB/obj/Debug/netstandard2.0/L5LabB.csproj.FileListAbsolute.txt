@@ -1,0 +1,14 @@
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.csprojAssemblyReference.cache
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.AssemblyInfoInputs.cache
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.AssemblyInfo.cs
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.csproj.CoreCompileInputs.cache
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.dll
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\ref\L5LabB.dll
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\L5LabB.pdb
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\bin\Debug\netstandard2.0\L5LabB.deps.json
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\bin\Debug\netstandard2.0\L5LabB.dll
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\bin\Debug\netstandard2.0\ref\L5LabB.dll
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\bin\Debug\netstandard2.0\L5LabB.pdb
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB\obj\Debug\netstandard2.0\XamlC.stamp

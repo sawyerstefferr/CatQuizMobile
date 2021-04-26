@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="L5LabB.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#ff9933" Padding="24" CornerRadius="0">
+            <Label Text="Cat Quiz" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label x:Name="Question" FontSize="25" Padding="30,0,30,0"/>
+            <Label x:Name="Note"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" VerticalOptions="End">
+            <Button x:Name="TrueButton" CornerRadius="20" BackgroundColor="#660066" Text="True" Clicked="answerTrue"></Button>
+            <Button x:Name="FalseButton" CornerRadius="20" BackgroundColor="#cc6600" Text="False" Clicked="answerFalse"></Button>
+            <Button x:Name="RestartButton" CornerRadius="20" BackgroundColor="#660066" Text="Restart Quiz" Clicked="restart"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
