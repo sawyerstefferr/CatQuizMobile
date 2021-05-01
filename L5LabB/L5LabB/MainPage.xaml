@@ -7,15 +7,24 @@
         <Frame BackgroundColor="#ff9933" Padding="24" CornerRadius="0">
             <Label Text="Cat Quiz" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-
+        
+        <Image x:Name="catPicture" Source="caesar2.jpg">
+            <Image.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="answerFalse"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="answerTrue"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Label Text="Swipe right on the image for true and left for false"></Label>
         <StackLayout VerticalOptions="CenterAndExpand">
+            <Label x:Name="SwipeLabel"></Label>
             <Label x:Name="Question" FontSize="25" Padding="30,0,30,0"/>
             <Label x:Name="Note"></Label>
         </StackLayout>
         <StackLayout Orientation="Vertical" VerticalOptions="End">
-            <Button x:Name="TrueButton" CornerRadius="20" BackgroundColor="#660066" Text="True" Clicked="answerTrue"></Button>
-            <Button x:Name="FalseButton" CornerRadius="20" BackgroundColor="#cc6600" Text="False" Clicked="answerFalse"></Button>
+            <!--<Button x:Name="TrueButton" CornerRadius="20" BackgroundColor="#660066" Text="True" Clicked="answerTrue"></Button>
+            <Button x:Name="FalseButton" CornerRadius="20" BackgroundColor="#cc6600" Text="False" Clicked="answerFalse"></Button>-->
             <Button x:Name="RestartButton" CornerRadius="20" BackgroundColor="#660066" Text="Restart Quiz" Clicked="restart"></Button>
+            
         </StackLayout>
     </StackLayout>
 

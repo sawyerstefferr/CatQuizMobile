@@ -574,3 +574,5 @@ D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\stamp\_ConvertReso
 D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\res\drawable\caesar1.jpg
+D:\D\VS\Mobile Dev\L5LabB\L5LabB\L5LabB.Android\obj\Debug\110\res\drawable\caesar2.jpg

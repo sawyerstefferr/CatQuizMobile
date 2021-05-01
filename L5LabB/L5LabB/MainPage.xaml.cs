@@ -12,6 +12,7 @@ namespace L5LabB
     {
         int currentQuestion = 0;
         int points = 0;
+        bool finishPage = false;
         String[] questions = new String[] {
             "An average cat spends two thirds of its life sleeping.",
             "You would be punished by death for killing a cat in ancient Egypt.",
@@ -34,21 +35,32 @@ namespace L5LabB
         }
         void answerTrue(Object sender, System.EventArgs e)
         {
-            if (answers[currentQuestion] == true)
+            if (!finishPage)
             {
-                points++;
+                SwipeLabel.Text = "";
+                SwipeLabel.Text = "True";
+                if (answers[currentQuestion] == true)
+                {
+                    points++;
+                }
+                else Note.Text = notes[currentQuestion];
+                nextQuestion();
             }
-            else Note.Text = notes[currentQuestion];
-            nextQuestion();
         }
         void answerFalse(Object sender, System.EventArgs e)
         {
-            if (answers[currentQuestion] == false)
+            
+            if (!finishPage)
             {
-                points++;
+                SwipeLabel.Text = "";
+                SwipeLabel.Text = "False";
+                if (answers[currentQuestion] == false)
+                {
+                    points++;
+                }
+                else Note.Text = notes[currentQuestion];
+                nextQuestion();
             }
-            else Note.Text = notes[currentQuestion];
-            nextQuestion();
         }
         void nextQuestion()
         {
@@ -65,21 +77,23 @@ namespace L5LabB
         }
         void finish()
         {
-            toggleButtonVisibility();
+            finishPage = true;
+            //toggleButtonVisibility();
             RestartButton.IsVisible = true;
             Question.Text = "You got "+points+"/5 points!";
         }
-        void toggleButtonVisibility()
-        {
-            TrueButton.IsVisible = !TrueButton.IsVisible;
-            FalseButton.IsVisible = !FalseButton.IsVisible;
-        }
+        //void toggleButtonVisibility()
+        //{
+        //    TrueButton.IsVisible = !TrueButton.IsVisible;
+        //    FalseButton.IsVisible = !FalseButton.IsVisible;
+        //}
         void restart(Object sender, System.EventArgs e)
         {
+            finishPage = false;
             RestartButton.IsVisible = false;
             currentQuestion = 0;
             points = 0;
-            toggleButtonVisibility();
+            //toggleButtonVisibility();
             displayQuestion();
         }
     }
